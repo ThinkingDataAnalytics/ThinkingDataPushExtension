@@ -1,0 +1,23 @@
+PODS:
+  - ThinkingDataCore (0.1.0)
+  - ThinkingDataPushExtension (0.1.0):
+    - ThinkingDataCore (= 0.1.0)
+
+DEPENDENCIES:
+  - ThinkingDataPushExtension (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ThinkingDataCore
+
+EXTERNAL SOURCES:
+  ThinkingDataPushExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThinkingDataCore: e177f66890b10de6adb33a0d777c17064d7fc464
+  ThinkingDataPushExtension: 0fdabb71a5392863a6d92667cf2069059b940bd6
+
+PODFILE CHECKSUM: 0a64d703b61f9f930fc05b96c0d12bb705a74fe3
+
+COCOAPODS: 1.11.3

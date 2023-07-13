@@ -1,0 +1,6 @@
+framework module Pods_ThinkingDataPushExtension_Example {
+  umbrella header "Pods-ThinkingDataPushExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
