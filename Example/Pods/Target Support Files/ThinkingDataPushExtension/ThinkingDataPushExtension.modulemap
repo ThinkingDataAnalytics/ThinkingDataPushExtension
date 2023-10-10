@@ -1,6 +1,0 @@
-framework module ThinkingDataPushExtension {
-  umbrella header "ThinkingDataPushExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}

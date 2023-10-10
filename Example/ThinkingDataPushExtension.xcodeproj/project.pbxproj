@@ -350,10 +350,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ThinkingDataPushExtension_Example/Pods-ThinkingDataPushExtension_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ThinkingDataAnalyticsExtension/ThinkingDataAnalyticsExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/ThinkingDataCore/ThinkingDataCore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThinkingDataAnalyticsExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ThinkingDataCore.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
