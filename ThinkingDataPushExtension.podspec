@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ThinkingDataAnalytics/ThinkingDataPushExtension.git', :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
 #  s.source_files = 'ThinkingDataPushExtension/Classes/**/*'
   s.vendored_frameworks = 'ThinkingDataPushExtension/Classes/**/*.xcframework'
