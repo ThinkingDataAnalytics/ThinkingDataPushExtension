@@ -3,7 +3,10 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ThinkingDataPushExtension_Example' do
+#  本地 framework 引入
   pod 'ThinkingDataPushExtension', :path => '../'
+#  本地 源码 引入
+#  pod 'ThinkingDataPushExtension', :path => '../_do_not_upload_to_github/'
 
   target 'ThinkingDataPushExtension_Tests' do
     inherit! :search_paths
